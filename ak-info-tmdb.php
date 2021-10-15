@@ -5,7 +5,7 @@
  * Description:       This plugin allows to use info from TMDB.
  * Version:           1.0
  * Author:            Ahmed Elkelany
- * Author URI:        
+ * Author URI:        https://github.com/Aelkelany/info-tmdb-wordpress
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  */
