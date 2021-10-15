@@ -1,7 +1,7 @@
 === AK INFO TMDB ===
 Contributors: Ahmed Elkelany
 Donate link: 
-Tags: TMDB , url, API , flickr, picasa, instagram, cdn, s3, image, AK INFO TMDB
+Tags: TMDB , url, API, AK INFO TMDB
 Requires at least: 4.0
 Tested up to: 5.8
 Stable tag: 1.0
