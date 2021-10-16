@@ -34,8 +34,8 @@ class Ak_Tmdb_Info{
 	// save data url and alt
 	public function ak_eufi_save_data( $post_id ){
 		
-		$url = isset($_POST['akefi_url'])?esc_url($_POST['akefi_url']):null;
-		$alt = isset($_POST['akefi_alt'])?wp_strip_all_tags($_POST['akefi_alt']):null;
+		$url = isset($_POST['akefi_url'])?esc_url_raw($_POST['akefi_url']):null;
+		$alt = isset($_POST['akefi_alt'])?sanitize_text_field($_POST['akefi_alt']):null;
 		if ( $url){ 				
 			$image = media_sideload_image( $url, $post_id, $alt,'id' );
 			set_post_thumbnail( $post_id, $image );
