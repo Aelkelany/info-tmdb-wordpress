@@ -24,9 +24,6 @@ class Ak_Tmdb_Info{
 	}
 	// add_meta_box Callback
 	public function ak_eufi_show_metabox( $post ){
-		$img 	 = $data['img'];
-		$alt 	 = $data['alt'];
-
 		include 'html/inc-metabox.php';	
 	}
 	// ----------------------
