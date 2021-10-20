@@ -39,7 +39,7 @@ input#moviein {
         movid = movieidgt.value;
         url = "//api.themoviedb.org/3/";
         mode = "movie/";
-         key = "?api_key=<?php esc_attr(get_option('ak_plugin_options')[api_key]);?>";
+         key = "?api_key=<?php echo esc_attr(get_option('ak_plugin_options')[api_key]);?>";
         Promise.all([
             fetch(url + mode + movid + key ),
             fetch(url + mode  + movid + "/keywords"+ key),
